@@ -1,6 +1,7 @@
 #!/bin/sh
 time="$(date +'%I:%M %p')"
 t="$(date +'%H')"
+echo "Made Changes"
 if [ $t -le 12 ]
 then
     echo "\nGood Morning Sir\n"
