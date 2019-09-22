@@ -3,6 +3,7 @@ time="$(date +'%I:%M %p')"
 t="$(date +'%H')"
 echo "Made Changes"
 echo "Made changes from cloud"
+echo "Made changes after adding commands"
 if [ $t -le 12 ]
 then
     echo "\nGood Morning Sir\n"
